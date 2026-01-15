@@ -1,5 +1,5 @@
 {% set name = "kite" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/hpdcj/KITE/archive/refs/tags/{{ version }}.tar.gz
-  sha256: a8bf490646920d060adb440449793c23fc4941e44e3658059978d48ccb52ea04
+  sha256: 56b7944512b0b25d9d6c1be6481db83abe1e47e2dc6d8cbc509a514bb26534c9
 
 build:
   noarch: generic
